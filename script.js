@@ -17,4 +17,10 @@ $(document).ready(function(){
 	   		animation: "slide"
 	 	});
 	});
+	$('#search').click(function(){
+		$('.form-control').toggleClass('hidden');
+	})
+	$('.col-xs-5').hover(function(){
+		$('.thumb-caption').toggleClass('black-text');
+	})
 })
