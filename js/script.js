@@ -20,7 +20,12 @@ $(document).ready(function(){
 	$('#search').click(function(){
 		$('.form-control').toggleClass('hidden');
 	})
-	$('.col-xs-5').hover(function(){
-		$('.thumb-caption').toggleClass('black-text');
+	$('.thumb-caption').hover(function(){
+		$(this).toggleClass('black-text');
 	})
+	// window.addEventListener('resize', function(){
+		var body2 = $('body')[0].scrollHeight;
+		console.log(body2);
+		$('footer').css('top',body2+700+'px','position','absolute');
+	// })
 })

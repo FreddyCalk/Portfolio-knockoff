@@ -2,15 +2,24 @@
         border-radius: 0px;
         position: relative;
         z-index: 1000;
+        transition: all 1s;
     }
+
     .navbar-form .form-control{
         transition: all 1s;
     }
     .navbar-form .form-control.hidden{
         display:none;
     }
-    .row{
-        margin:4% 0%;
+    .thumbs{
+        margin-top: 5%;
+    }
+    .divider{
+        margin-top:5%;
+    }
+    footer{
+        max-height: 600px;
+        position: absolute;
     }
 /*----------------Header------------------*/
     #header{
@@ -56,7 +65,7 @@
     #nav-bar.nav-bar-scrolled{
         position:fixed;
         top:0px;
-        height:52px;
+        // height:52px;
         width: 100%;
     }
     .navbar-form img{
@@ -84,10 +93,7 @@
     .body-scrolled{
         margin-top: 73px;
     }
-    .black-text{
-        color: black;
-        text-decoration: underline;
-    }
+
 /*---------------Flex-Slider----------------*/
 
     .flexslider .flex-direction-nav a{
@@ -112,12 +118,19 @@
         top:-90px;    
     }
     .thumbnails{
+
+        p.black-text{  
+        text-decoration: underline;
+        color: #000;
+        }
+
         p{
             position:relative;
             z-index:10;
             font-size: 16px;
             color:white;
             font-weight:bold;
+            // display:inline;
         }
         #travel-caption{
             top:-600px;
@@ -136,6 +149,33 @@
             left:600px;
         }
     }
+    .container{
+        max-height: 700px;
+    }
+#footer{
+    .footer-left {
+        width: 30%;
+    }
+    .footer-center{
+        width:45%;
+    }
+    .footer-right{
+        .footer-icons{
+            a{
+                background-color: #292c2f;
+                i{
+                    img{
+                    width:100%;
+                    border-radius:7px;
+                    }
+                }
+           }     
+        }
+    }
+}
+
+
+
 /*--------------Max-Width: 1450px-------------------------------*/
 
 @media screen and (max-width: 1450px){
@@ -234,6 +274,10 @@
     .flex-control-nav li a{
         position:relative;
         top:-120px;    
+    }
+    .navbar-form #search{
+        width:15px;
+        margin-top: 10px;
     }
 }
 /*--------------Max-Width: 560px-------------------------------*/
