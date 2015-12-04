@@ -16,6 +16,10 @@ $(document).ready(function(){
 		$('.flexslider').flexslider({
 	   		animation: "slide"
 	 	});
+	 	$(window).resize(function(){
+		$('footer').css({'top': $('html').height(),
+						'position':'absolute'});
+	})
 	});
 	$('#search').click(function(){
 		$('.form-control').toggleClass('hidden');
@@ -23,9 +27,5 @@ $(document).ready(function(){
 	$('.thumb-caption').hover(function(){
 		$(this).toggleClass('black-text');
 	})
-	// window.addEventListener('resize', function(){
-		var body2 = $('body')[0].scrollHeight;
-		console.log(body2);
-		$('footer').css('top',body2+700+'px','position','absolute');
-	// })
+	
 })
