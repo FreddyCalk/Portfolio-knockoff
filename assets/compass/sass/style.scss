@@ -112,10 +112,6 @@ body{
 
     }
     #body-wrapper{
-        #article-container{
-            height:1000px;
-            overflow:scroll;
-        }
         .container{
             background-color:$blue;
             opacity: 0.9;
@@ -155,7 +151,6 @@ body{
         width:900px;
         height:900px;
         margin: auto;
-        opacity: 0.9;
     }
     .flexslider .slides li img{
         width:100%;

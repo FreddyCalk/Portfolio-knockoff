@@ -134,18 +134,13 @@ footer {
 }
 
 /* line 115, ../compass/sass/style.scss */
-#body-wrapper #article-container {
-  height: 1000px;
-  overflow: scroll;
-}
-/* line 119, ../compass/sass/style.scss */
 #body-wrapper .container {
   background-color: #000088;
   opacity: 0.9;
   border-radius: 20px;
   margin-top: 50px;
 }
-/* line 124, ../compass/sass/style.scss */
+/* line 120, ../compass/sass/style.scss */
 #body-wrapper .container .header {
   text-align: center;
   margin-top: 100px;
@@ -154,44 +149,43 @@ footer {
   font-size: 42px;
   color: #cf5300;
 }
-/* line 132, ../compass/sass/style.scss */
+/* line 128, ../compass/sass/style.scss */
 #body-wrapper .container .category {
   color: #cf5300;
 }
-/* line 135, ../compass/sass/style.scss */
+/* line 131, ../compass/sass/style.scss */
 #body-wrapper .container .title {
   color: #cf5300;
 }
-/* line 139, ../compass/sass/style.scss */
+/* line 135, ../compass/sass/style.scss */
 #body-wrapper .container .article-content {
   color: #cf5300;
 }
 
-/* line 144, ../compass/sass/style.scss */
+/* line 140, ../compass/sass/style.scss */
 .body-scrolled {
   margin-top: 73px;
 }
 
 /*---------------Flex-Slider----------------*/
-/* line 150, ../compass/sass/style.scss */
+/* line 146, ../compass/sass/style.scss */
 .flexslider .flex-direction-nav a {
   height: 50px;
 }
 
-/* line 154, ../compass/sass/style.scss */
+/* line 150, ../compass/sass/style.scss */
 #body .flexslider {
   width: 900px;
   height: 900px;
   margin: auto;
-  opacity: 0.9;
 }
 
-/* line 160, ../compass/sass/style.scss */
+/* line 155, ../compass/sass/style.scss */
 .flexslider .slides li img {
   width: 100%;
 }
 
-/* line 164, ../compass/sass/style.scss */
+/* line 159, ../compass/sass/style.scss */
 .flexslider .slides li p {
   text-align: center;
   font-size: 24px;
@@ -201,18 +195,18 @@ footer {
   border-radius: 10px;
 }
 
-/* line 172, ../compass/sass/style.scss */
+/* line 167, ../compass/sass/style.scss */
 .flex-control-nav li a {
   position: relative;
   top: -90px;
 }
 
-/* line 178, ../compass/sass/style.scss */
+/* line 173, ../compass/sass/style.scss */
 .thumbnails p.black-text {
   text-decoration: underline;
   color: #000;
 }
-/* line 183, ../compass/sass/style.scss */
+/* line 178, ../compass/sass/style.scss */
 .thumbnails p {
   position: relative;
   z-index: 10;
@@ -221,25 +215,25 @@ footer {
   font-weight: bold;
 }
 
-/* line 195, ../compass/sass/style.scss */
+/* line 190, ../compass/sass/style.scss */
 #footer {
   background-color: #000088;
   opacity: 0.9;
   color: #cf5300;
 }
-/* line 199, ../compass/sass/style.scss */
+/* line 194, ../compass/sass/style.scss */
 #footer .footer-left {
   width: 30%;
 }
-/* line 202, ../compass/sass/style.scss */
+/* line 197, ../compass/sass/style.scss */
 #footer .footer-center {
   width: 45%;
 }
-/* line 207, ../compass/sass/style.scss */
+/* line 202, ../compass/sass/style.scss */
 #footer .footer-right .footer-icons a {
   background-color: #292c2f;
 }
-/* line 210, ../compass/sass/style.scss */
+/* line 205, ../compass/sass/style.scss */
 #footer .footer-right .footer-icons a i img {
   width: 100%;
   border-radius: 7px;
@@ -247,30 +241,30 @@ footer {
 
 /*--------------Max-Width: 1450px-------------------------------*/
 @media screen and (max-width: 1450px) {
-  /* line 225, ../compass/sass/style.scss */
+  /* line 220, ../compass/sass/style.scss */
   .flexslider .flex-direction-nav a {
     height: 50px;
   }
 
-  /* line 229, ../compass/sass/style.scss */
+  /* line 224, ../compass/sass/style.scss */
   #body .flexslider {
     width: 600px;
     height: 600px;
     margin: auto;
   }
 
-  /* line 234, ../compass/sass/style.scss */
+  /* line 229, ../compass/sass/style.scss */
   .flexslider .slides li img {
     width: 100%;
   }
 
-  /* line 238, ../compass/sass/style.scss */
+  /* line 233, ../compass/sass/style.scss */
   .flexslider .slides li p {
     text-align: center;
     font-size: 24px;
   }
 
-  /* line 242, ../compass/sass/style.scss */
+  /* line 237, ../compass/sass/style.scss */
   .flex-control-nav li a {
     position: relative;
     top: -90px;
@@ -278,36 +272,36 @@ footer {
 }
 /*--------------Max-Width: 1166px-------------------------------*/
 @media screen and (max-width: 1200px) {
-  /* line 250, ../compass/sass/style.scss */
+  /* line 245, ../compass/sass/style.scss */
   .flexslider .flex-direction-nav a {
     height: 50px;
   }
 
-  /* line 254, ../compass/sass/style.scss */
+  /* line 249, ../compass/sass/style.scss */
   #body .flexslider {
     width: 500px;
     height: 500px;
     margin: auto;
   }
 
-  /* line 259, ../compass/sass/style.scss */
+  /* line 254, ../compass/sass/style.scss */
   .flexslider .slides li img {
     width: 100%;
   }
 
-  /* line 263, ../compass/sass/style.scss */
+  /* line 258, ../compass/sass/style.scss */
   .flexslider .slides li p {
     text-align: center;
     font-size: 24px;
   }
 
-  /* line 267, ../compass/sass/style.scss */
+  /* line 262, ../compass/sass/style.scss */
   .flex-control-nav li a {
     position: relative;
     top: -120px;
   }
 
-  /* line 272, ../compass/sass/style.scss */
+  /* line 267, ../compass/sass/style.scss */
   .thumbnails p {
     position: relative;
     z-index: 10;
@@ -318,36 +312,36 @@ footer {
 }
 /*--------------Max-Width: 760px-------------------------------*/
 @media screen and (max-width: 760px) {
-  /* line 284, ../compass/sass/style.scss */
+  /* line 279, ../compass/sass/style.scss */
   .flexslider .flex-direction-nav a {
     height: 50px;
   }
 
-  /* line 288, ../compass/sass/style.scss */
+  /* line 283, ../compass/sass/style.scss */
   #body .flexslider {
     width: 400px;
     height: 400px;
     margin: auto;
   }
 
-  /* line 293, ../compass/sass/style.scss */
+  /* line 288, ../compass/sass/style.scss */
   .flexslider .slides li img {
     width: 100%;
   }
 
-  /* line 297, ../compass/sass/style.scss */
+  /* line 292, ../compass/sass/style.scss */
   .flexslider .slides li p {
     text-align: center;
     font-size: 24px;
   }
 
-  /* line 301, ../compass/sass/style.scss */
+  /* line 296, ../compass/sass/style.scss */
   .flex-control-nav li a {
     position: relative;
     top: -120px;
   }
 
-  /* line 305, ../compass/sass/style.scss */
+  /* line 300, ../compass/sass/style.scss */
   .navbar-form #search {
     width: 15px;
     margin-top: 10px;
@@ -355,31 +349,31 @@ footer {
 }
 /*--------------Max-Width: 560px-------------------------------*/
 @media screen and (max-width: 560px) {
-  /* line 313, ../compass/sass/style.scss */
+  /* line 308, ../compass/sass/style.scss */
   .flexslider .flex-direction-nav a {
     height: 50px;
     top: 70%;
   }
 
-  /* line 318, ../compass/sass/style.scss */
+  /* line 313, ../compass/sass/style.scss */
   #body .flexslider {
     width: 300px;
     height: 300px;
     margin: auto;
   }
 
-  /* line 323, ../compass/sass/style.scss */
+  /* line 318, ../compass/sass/style.scss */
   .flexslider .slides li img {
     width: 100%;
   }
 
-  /* line 327, ../compass/sass/style.scss */
+  /* line 322, ../compass/sass/style.scss */
   .flexslider .slides li p {
     text-align: center;
     font-size: 24px;
   }
 
-  /* line 331, ../compass/sass/style.scss */
+  /* line 326, ../compass/sass/style.scss */
   .flex-control-nav li a {
     position: relative;
     top: -120px;
