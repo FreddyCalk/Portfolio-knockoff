@@ -2,26 +2,28 @@
 body {
   background-image: url("../../media/samfordbig.JPG");
   background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: fixed;
 }
 
-/* line 9, ../compass/sass/style.scss */
+/* line 12, ../compass/sass/style.scss */
 .nav, .navbar-inverse {
   border-radius: 0px;
   position: relative;
   z-index: 1000;
 }
 
-/* line 17, ../compass/sass/style.scss */
+/* line 20, ../compass/sass/style.scss */
 .navbar-form .form-control.hidden {
   display: none;
 }
 
-/* line 20, ../compass/sass/style.scss */
+/* line 23, ../compass/sass/style.scss */
 .thumbs {
   margin-top: 5%;
 }
 
-/* line 24, ../compass/sass/style.scss */
+/* line 27, ../compass/sass/style.scss */
 .container .divider {
   margin: 5% 8%;
   padding: 20px;
@@ -30,14 +32,14 @@ body {
   color: #000088;
 }
 
-/* line 33, ../compass/sass/style.scss */
+/* line 36, ../compass/sass/style.scss */
 footer {
   max-height: 600px;
   position: absolute;
 }
 
 /*----------------Header------------------*/
-/* line 38, ../compass/sass/style.scss */
+/* line 41, ../compass/sass/style.scss */
 #header {
   height: 35px;
   width: 100%;
@@ -45,12 +47,12 @@ footer {
   background-color: #000088;
 }
 
-/* line 44, ../compass/sass/style.scss */
+/* line 47, ../compass/sass/style.scss */
 #header #links p {
   margin: 0px 0px 0px 10.5%;
 }
 
-/* line 47, ../compass/sass/style.scss */
+/* line 50, ../compass/sass/style.scss */
 #header #links a {
   margin: 0 20px 0 0;
   display: inline;
@@ -58,20 +60,20 @@ footer {
   color: white;
 }
 
-/* line 53, ../compass/sass/style.scss */
+/* line 56, ../compass/sass/style.scss */
 #header #links a:hover {
   color: #cf5300;
   text-decoration: none;
 }
 
-/* line 57, ../compass/sass/style.scss */
+/* line 60, ../compass/sass/style.scss */
 #header #social-media {
   margin-right: 11%;
   float: right;
   overflow: hidden;
 }
 
-/* line 62, ../compass/sass/style.scss */
+/* line 65, ../compass/sass/style.scss */
 #header #social-media img {
   height: 15px;
   margin: 0px 5px;
@@ -79,49 +81,49 @@ footer {
   border-radius: 5px;
 }
 
-/* line 68, ../compass/sass/style.scss */
+/* line 71, ../compass/sass/style.scss */
 #header #social-media img:hover {
   border-image: 10px solid black;
 }
 
 /*------------Nav-Bar-------------------------*/
-/* line 74, ../compass/sass/style.scss */
+/* line 77, ../compass/sass/style.scss */
 #nav-bar {
   padding: 0% 10%;
 }
 
-/* line 77, ../compass/sass/style.scss */
+/* line 80, ../compass/sass/style.scss */
 #nav-bar.nav-bar-scrolled {
   position: fixed;
   top: 0px;
   width: 100%;
 }
 
-/* line 85, ../compass/sass/style.scss */
+/* line 88, ../compass/sass/style.scss */
 .collapse .nav li {
   color: white;
 }
 
-/* line 90, ../compass/sass/style.scss */
+/* line 93, ../compass/sass/style.scss */
 .navbar-form .form-control {
   height: 25px;
 }
 
-/* line 93, ../compass/sass/style.scss */
+/* line 96, ../compass/sass/style.scss */
 .navbar-form #search {
   width: 15px;
   margin-top: 10px;
   color: grey;
 }
 
-/* line 98, ../compass/sass/style.scss */
+/* line 101, ../compass/sass/style.scss */
 .navbar-form #search:hover {
   cursor: pointer;
   color: white;
 }
 
 /*------------------Body---------------------*/
-/* line 105, ../compass/sass/style.scss */
+/* line 108, ../compass/sass/style.scss */
 #body-wrapper h1 {
   text-align: center;
   background-color: #000088;
@@ -133,14 +135,14 @@ footer {
   border-radius: 20px;
 }
 
-/* line 117, ../compass/sass/style.scss */
+/* line 120, ../compass/sass/style.scss */
 #body-wrapper .container {
   background-color: #000088;
   opacity: 0.9;
   border-radius: 20px;
   margin-top: 50px;
 }
-/* line 122, ../compass/sass/style.scss */
+/* line 125, ../compass/sass/style.scss */
 #body-wrapper .container .header {
   text-align: center;
   margin-top: 100px;
@@ -149,43 +151,43 @@ footer {
   font-size: 42px;
   color: #cf5300;
 }
-/* line 130, ../compass/sass/style.scss */
+/* line 133, ../compass/sass/style.scss */
 #body-wrapper .container .category {
   color: #cf5300;
 }
-/* line 133, ../compass/sass/style.scss */
+/* line 136, ../compass/sass/style.scss */
 #body-wrapper .container .title {
   color: #cf5300;
 }
-/* line 137, ../compass/sass/style.scss */
+/* line 140, ../compass/sass/style.scss */
 #body-wrapper .container .article-content {
   color: #cf5300;
 }
 
-/* line 142, ../compass/sass/style.scss */
+/* line 145, ../compass/sass/style.scss */
 .body-scrolled {
   margin-top: 73px;
 }
 
 /*---------------Flex-Slider----------------*/
-/* line 148, ../compass/sass/style.scss */
+/* line 151, ../compass/sass/style.scss */
 .flexslider .flex-direction-nav a {
   height: 50px;
 }
 
-/* line 152, ../compass/sass/style.scss */
+/* line 155, ../compass/sass/style.scss */
 #body .flexslider {
   width: 900px;
   height: 900px;
   margin: auto;
 }
 
-/* line 157, ../compass/sass/style.scss */
+/* line 160, ../compass/sass/style.scss */
 .flexslider .slides li img {
   width: 100%;
 }
 
-/* line 161, ../compass/sass/style.scss */
+/* line 164, ../compass/sass/style.scss */
 .flexslider .slides li p {
   text-align: center;
   font-size: 24px;
@@ -195,18 +197,18 @@ footer {
   border-radius: 10px;
 }
 
-/* line 169, ../compass/sass/style.scss */
+/* line 172, ../compass/sass/style.scss */
 .flex-control-nav li a {
   position: relative;
   top: -90px;
 }
 
-/* line 175, ../compass/sass/style.scss */
+/* line 178, ../compass/sass/style.scss */
 .thumbnails p.black-text {
   text-decoration: underline;
   color: #000;
 }
-/* line 180, ../compass/sass/style.scss */
+/* line 183, ../compass/sass/style.scss */
 .thumbnails p {
   position: relative;
   z-index: 10;
@@ -215,34 +217,34 @@ footer {
   font-weight: bold;
 }
 
-/* line 192, ../compass/sass/style.scss */
+/* line 195, ../compass/sass/style.scss */
 #footer {
   background-color: #000088;
   opacity: 0.9;
   color: #cf5300;
 }
-/* line 196, ../compass/sass/style.scss */
+/* line 199, ../compass/sass/style.scss */
 #footer .footer-left {
   width: 30%;
 }
-/* line 198, ../compass/sass/style.scss */
+/* line 201, ../compass/sass/style.scss */
 #footer .footer-left .foot-link {
   color: white;
 }
-/* line 201, ../compass/sass/style.scss */
+/* line 204, ../compass/sass/style.scss */
 #footer .footer-left .foot-link:hover {
   color: #cf5300;
   text-decoration: none;
 }
-/* line 206, ../compass/sass/style.scss */
+/* line 209, ../compass/sass/style.scss */
 #footer .footer-center {
   width: 45%;
 }
-/* line 211, ../compass/sass/style.scss */
+/* line 214, ../compass/sass/style.scss */
 #footer .footer-right .footer-icons a {
   background-color: #292c2f;
 }
-/* line 214, ../compass/sass/style.scss */
+/* line 217, ../compass/sass/style.scss */
 #footer .footer-right .footer-icons a i img {
   width: 100%;
   border-radius: 7px;
@@ -250,30 +252,30 @@ footer {
 
 /*--------------Max-Width: 1450px-------------------------------*/
 @media screen and (max-width: 1450px) {
-  /* line 229, ../compass/sass/style.scss */
+  /* line 232, ../compass/sass/style.scss */
   .flexslider .flex-direction-nav a {
     height: 50px;
   }
 
-  /* line 233, ../compass/sass/style.scss */
+  /* line 236, ../compass/sass/style.scss */
   #body .flexslider {
     width: 600px;
     height: 600px;
     margin: auto;
   }
 
-  /* line 238, ../compass/sass/style.scss */
+  /* line 241, ../compass/sass/style.scss */
   .flexslider .slides li img {
     width: 100%;
   }
 
-  /* line 242, ../compass/sass/style.scss */
+  /* line 245, ../compass/sass/style.scss */
   .flexslider .slides li p {
     text-align: center;
     font-size: 24px;
   }
 
-  /* line 246, ../compass/sass/style.scss */
+  /* line 249, ../compass/sass/style.scss */
   .flex-control-nav li a {
     position: relative;
     top: -90px;
@@ -281,36 +283,36 @@ footer {
 }
 /*--------------Max-Width: 1166px-------------------------------*/
 @media screen and (max-width: 1200px) {
-  /* line 254, ../compass/sass/style.scss */
+  /* line 257, ../compass/sass/style.scss */
   .flexslider .flex-direction-nav a {
     height: 50px;
   }
 
-  /* line 258, ../compass/sass/style.scss */
+  /* line 261, ../compass/sass/style.scss */
   #body .flexslider {
     width: 500px;
     height: 500px;
     margin: auto;
   }
 
-  /* line 263, ../compass/sass/style.scss */
+  /* line 266, ../compass/sass/style.scss */
   .flexslider .slides li img {
     width: 100%;
   }
 
-  /* line 267, ../compass/sass/style.scss */
+  /* line 270, ../compass/sass/style.scss */
   .flexslider .slides li p {
     text-align: center;
     font-size: 24px;
   }
 
-  /* line 271, ../compass/sass/style.scss */
+  /* line 274, ../compass/sass/style.scss */
   .flex-control-nav li a {
     position: relative;
     top: -120px;
   }
 
-  /* line 276, ../compass/sass/style.scss */
+  /* line 279, ../compass/sass/style.scss */
   .thumbnails p {
     position: relative;
     z-index: 10;
@@ -321,36 +323,36 @@ footer {
 }
 /*--------------Max-Width: 760px-------------------------------*/
 @media screen and (max-width: 760px) {
-  /* line 288, ../compass/sass/style.scss */
+  /* line 291, ../compass/sass/style.scss */
   .flexslider .flex-direction-nav a {
     height: 50px;
   }
 
-  /* line 292, ../compass/sass/style.scss */
+  /* line 295, ../compass/sass/style.scss */
   #body .flexslider {
     width: 400px;
     height: 400px;
     margin: auto;
   }
 
-  /* line 297, ../compass/sass/style.scss */
+  /* line 300, ../compass/sass/style.scss */
   .flexslider .slides li img {
     width: 100%;
   }
 
-  /* line 301, ../compass/sass/style.scss */
+  /* line 304, ../compass/sass/style.scss */
   .flexslider .slides li p {
     text-align: center;
     font-size: 24px;
   }
 
-  /* line 305, ../compass/sass/style.scss */
+  /* line 308, ../compass/sass/style.scss */
   .flex-control-nav li a {
     position: relative;
     top: -120px;
   }
 
-  /* line 309, ../compass/sass/style.scss */
+  /* line 312, ../compass/sass/style.scss */
   .navbar-form #search {
     width: 15px;
     margin-top: 10px;
@@ -359,7 +361,7 @@ footer {
   }
 }
 @media screen and (max-width: 880px) {
-  /* line 319, ../compass/sass/style.scss */
+  /* line 322, ../compass/sass/style.scss */
   .footer-left {
     margin: auto;
     width: 100%;
@@ -367,31 +369,31 @@ footer {
 }
 /*--------------Max-Width: 560px-------------------------------*/
 @media screen and (max-width: 560px) {
-  /* line 327, ../compass/sass/style.scss */
+  /* line 330, ../compass/sass/style.scss */
   .flexslider .flex-direction-nav a {
     height: 50px;
     top: 70%;
   }
 
-  /* line 332, ../compass/sass/style.scss */
+  /* line 335, ../compass/sass/style.scss */
   #body .flexslider {
     width: 300px;
     height: 300px;
     margin: auto;
   }
 
-  /* line 337, ../compass/sass/style.scss */
+  /* line 340, ../compass/sass/style.scss */
   .flexslider .slides li img {
     width: 100%;
   }
 
-  /* line 341, ../compass/sass/style.scss */
+  /* line 344, ../compass/sass/style.scss */
   .flexslider .slides li p {
     text-align: center;
     font-size: 24px;
   }
 
-  /* line 345, ../compass/sass/style.scss */
+  /* line 348, ../compass/sass/style.scss */
   .flex-control-nav li a {
     position: relative;
     top: -120px;
