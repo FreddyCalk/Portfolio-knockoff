@@ -195,6 +195,13 @@ body{
     color: $orange; 
     .footer-left {
         width: 30%;
+        .foot-link{
+            color:white;
+        }
+        .foot-link:hover{
+            color: $orange;
+            text-decoration: none;
+        }
     }
     .footer-center{
         width:45%;
@@ -304,6 +311,14 @@ body{
         margin-top: 10px;
         color:white;
         cursor:pointer;
+    }
+}
+
+
+@media screen and (max-width:880px){
+    .footer-left{
+        margin:auto;
+        width:100%;
     }
 }
 /*--------------Max-Width: 560px-------------------------------*/
