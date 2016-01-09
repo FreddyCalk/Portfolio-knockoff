@@ -27,5 +27,7 @@ $(document).ready(function(){
 	$('.thumb-caption').hover(function(){
 		$(this).toggleClass('black-text');
 	})
-	
+	$(window).resize(function(){
+		$('footer').style('position','absolute','bottom',$('main_body').prop('scrollHeight'));
+	})
 })

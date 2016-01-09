@@ -1,9 +1,14 @@
 $orange:#cf5300;
 $blue:#000088;
 
-body{
+#main_body{
     background-image: url('../../media/samfordbig.JPG');
     background-size: 100vw;
+    width:100vw;
+    height:90vh;
+    position:absolute;
+    top:85px;
+    overflow:scroll;
 }
 
 .nav, .navbar-inverse{
@@ -107,7 +112,7 @@ body{
         background-color: $blue;
         color: $orange;
         opacity: 0.9;
-        width:600px;
+        width:300px;
         margin: 5px auto 20px;
         padding: 15px 0px;
         border-radius: 20px;
